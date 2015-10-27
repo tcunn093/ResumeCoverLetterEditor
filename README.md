@@ -1,12 +1,17 @@
 # ResumeCoverLetterEditor
 
-Update your resume and cover letter quickly so you can apply for jobs faster.
+<h3>Update your resume and cover letter quickly so you can apply for jobs faster.</h3>
 
-1) Throw your Resume, Cover Letter and this script into the same folder. Make sure that your resume contains the string "Resume" in its title, and your cover letter contains the string "Cover Letter" in its title.
+<b>Things to do ONCE:</b>
 
-2) Open your resume and cover letter files and change any instance of the employer name to ##### and any instance of the job position to $$$$$
+Throw your Resume, Cover Letter and this script into the same folder. Make sure that your resume contains the string "Resume" in its title, and your cover letter contains the string "Cover Letter" in its title.
 
-3) Run the script. You will be asked to input the employer name and job position. Input these values.
+Open your resume and cover letter files and change any instance of the employer name to ##### and any instance of the job position to $$$$$. These are now your reference files.
+<br><br>
 
-4) Once a "Complete" message appears, your resume and cover letter are ready. A new folder will appear titled "Updated for Employer - Job Position". Your edited files are located in this folder. 
+<b>To update your resume and cover letter:</b>
+
+1) Run the script (by double-clicking). You will be asked to provide the employer name and job position. Input these values.
+
+2) Once a "Complete" message appears, your resume and cover letter are ready. A new folder will appear titled "Updated for Employer - Job Position". Your edited files are located in this folder. 
 
