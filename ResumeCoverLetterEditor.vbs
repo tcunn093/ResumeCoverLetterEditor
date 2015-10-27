@@ -19,8 +19,8 @@ ResumeFileName = fs.GetFileName(ResumeFile)
 Employer = getEmployer()
 Position = getPosition()
 
-Call AddEmployerName(UpdatedFolder, CoverLetterName, Employer, CoverLetter, Position)
-Call AddEmployerName(UpdatedFolder, ResumeFileName, Employer, ResumeFile, Position)
+Call addEmployerAndPosition(UpdatedFolder, CoverLetterName, Employer, CoverLetter, Position)
+Call addEmployerAndPosition(UpdatedFolder, ResumeFileName, Employer, ResumeFile, Position)
 
 fs.GetFolder(UpdatedFolder).Name = "Updated for " + Employer + " - " + Position
 
@@ -31,7 +31,7 @@ Set fs = Nothing
 End Sub
 
 
-Sub AddEmployerName(UpdatedF, fileName, EmployerName, file, Posit)
+Sub addEmployerAndPosition(UpdatedF, fileName, EmployerName, file, Posit)
 
 Const wdReplaceAll  = 2
 
